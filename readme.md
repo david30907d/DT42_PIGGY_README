@@ -19,7 +19,7 @@ If somethings goes wrong, please check the README of these repo.
 1. Fron-end: `docker run --rm -p 5000:5000 -it davidtnfsh/dt42_piggy_front_end:latest`
 2. Kafka cluster: `cd /<path>/dt42-piggy-kafka; docker-compose up`
 3. API: `cd /<path>/DT42_PIGGY_API; docker-compose up`
-
+4. Dashboard: `docker run -itd -p 3000:3000 --name metabase metabase/metabase:v0.36.6`
 ## Init Database
 
 ```bash
