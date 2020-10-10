@@ -21,9 +21,14 @@ If somethings goes wrong, please check the README of these repo.
 3. API: `cd /<path>/DT42_PIGGY_API; docker-compose up`
     * Because DT42 trainer.pipelines still have some issue, so use `cd /<path>/DT42_PIGGY_API; docker-compose -f docker-compose.test.yml up` just for now.
 4. Dashboard: `docker run -itd -p 3000:3000 --name metabase metabase/metabase:v0.36.6`
+
 ## Init Database
 
 ```bash
 docker-compose exec -T postgres sh -c 'psql -U postgres -f /tmp/stored_procedures.sql'
 docker-compose exec -T postgres sh -c 'psql -U postgres -f /tmp/init.sql'
 ```
+
+## Create User to Login
+
+<https://github.com/david30907d/DT42_PIGGY_API#run>
