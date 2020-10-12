@@ -20,7 +20,6 @@ If somethings goes wrong, please check the README of these repo.
 2. Kafka cluster: `cd /<path>/dt42-piggy-kafka; docker-compose up`
 3. API: `cd /<path>/DT42_PIGGY_API; docker-compose up`
     * Because DT42 trainer.pipelines still have some issue, so use `cd /<path>/DT42_PIGGY_API; docker-compose -f docker-compose.test.yml up` just for now.
-4. Dashboard: `docker run -itd -p 3000:3000 --name metabase metabase/metabase:v0.36.6`
 
 ## Init Database
 
