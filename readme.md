@@ -9,7 +9,7 @@ If somethings goes wrong, please check the README of these repo.
 ## Install
 
 1. Front-end: `docker pull davidtnfsh/dt42_piggy_front_end:latest`
-2. Kafka cluster: `git clone; git submodule update --init`
+2. Kafka cluster: <https://github.com/david30907d/dt42-piggy-kafka#install>
 3. API: `docker pull davidtnfsh/dt42_piggy_api:latest`
 
 ## Run
